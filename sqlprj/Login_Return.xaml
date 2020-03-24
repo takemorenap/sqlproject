@@ -1,0 +1,13 @@
+﻿<Window x:Class="sqlprj.Login_Return"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sqlprj"
+        mc:Ignorable="d"
+        Title="Login_Return" Height="150" Width="250">
+    <Grid>
+        <Button Name="ok" Content="Ok" Margin="56,61,56,26" Click="Ok_Click" IsDefault="True"></Button>
+        <Label Name ="welcome_name"  Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,22,0,0"/>
+    </Grid>
+</Window>
